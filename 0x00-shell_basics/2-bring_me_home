@@ -1,2 +1,4 @@
 #!/bin/bash
+read -p "Enter home directory path: " homeDirectory
+export HOME="$homeDirectory"
 cd ~
